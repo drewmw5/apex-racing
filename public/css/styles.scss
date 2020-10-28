@@ -1,0 +1,32 @@
+$apex-blue: #00274d !important;
+$apex-orange: #ff8d42 !important;
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+    background-color: $apex-blue;
+}
+
+.navbar {
+    background-color: white !important;
+    letter-spacing: .1rem;
+    li {
+        color: $apex-blue
+    }
+}
+
+.nav-item {
+    padding: 0 3rem !important;
+    a {
+        color: $apex-blue;
+        font-weight: bold;
+    }
+}
+
+.navbar-brand--image {
+    width: 500px;
+}
