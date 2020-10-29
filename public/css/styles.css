@@ -1,5 +1,6 @@
 .navbar {
   position: absolute;
+  max-height: 100%;
   background-color: white !important;
   letter-spacing: .1rem;
 }
@@ -35,6 +36,10 @@
   margin: 5px;
   border-radius: 10px;
   background-color: #00274d;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute !important;
 }
 
 @media (max-width: 575.98px) {
