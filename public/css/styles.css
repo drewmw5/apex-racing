@@ -59,6 +59,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 body {
   background-color: #00274d;
 }
