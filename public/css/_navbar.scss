@@ -11,6 +11,10 @@
     a {
         color: $apex-blue;
         font-weight: bold;
+        &:hover {
+            color: lighten($apex-blue, $amount: 15%);
+            text-decoration: none;
+        }
     }
 }
 

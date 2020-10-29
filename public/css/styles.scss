@@ -1,5 +1,5 @@
-$apex-blue: #00274d !important;
-$apex-orange: #ff8d42 !important;
+$apex-blue: #00274d;
+$apex-orange: #ff8d42;
 
 @import 'navbar';
 
@@ -11,4 +11,13 @@ $apex-orange: #ff8d42 !important;
 
 body {
     background-color: $apex-blue;
+}
+
+#wrapper {
+  margin-top: 180px !important;
+  margin-bottom: 3rem !important;
+  border-radius: 5px;
+  p {
+    padding: 1rem !important;
+  }
 }
