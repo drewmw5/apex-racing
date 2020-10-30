@@ -62,8 +62,19 @@
 #gallery-container {
   margin-top: 180px !important;
   margin-bottom: 3rem !important;
-  padding-top: 3rem !important;
   border-radius: 5px;
+}
+
+#gallery-container .modal-content {
+  width: auto;
+}
+
+#gallery-container .modal-dialog {
+  max-width: 90vw;
+}
+
+#gallery-container .modal-image {
+  max-width: 100%;
 }
 
 #sponsors--wrapper {
