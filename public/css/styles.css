@@ -9,10 +9,6 @@
   color: #00274d;
 }
 
-.nav-item {
-  padding: 0 3rem !important;
-}
-
 .nav-item a {
   color: #00274d;
   font-weight: bold;
@@ -21,6 +17,10 @@
 .nav-item a:hover {
   color: #004e9a;
   text-decoration: none;
+}
+
+.navbar-brand {
+  min-width: 200px;
 }
 
 .navbar-brand--image {
@@ -139,6 +139,10 @@ p {
 
 .apex-blue {
   color: #00274d;
+}
+
+.apex-blue--bg {
+  background-color: #00274d;
 }
 
 .ais-blue {
