@@ -1,9 +1,22 @@
 $apex-blue: #00274d;
 $apex-orange: #ff8d42;
 
+$ais-blue: #0aa0e7;
+
 @import 'navbar';
 @import 'teams';
 @import 'gallery';
+@import 'sponsors';
+
+@font-face {
+  font-family: Terminal;
+  src: url(../css/fonts/PCapTerminal.otf);
+}
+
+@font-face {
+  font-family: LAOui;
+  src: url(../css/fonts/LaoUI.ttf);
+}
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -61,8 +74,28 @@ p {
   color: $apex-orange;
 }
 
+.apex-orange--bg {
+  background-color: $apex-orange;
+}
+
 .apex-blue {
   color: $apex-blue;
+}
+
+.ais-blue {
+  color: $ais-blue;
+}
+
+.font-terminal {
+  font-family: Terminal;
+}
+
+.font-LAOui {
+  font-family: LAOui;
+}
+
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #index--wrapper {
