@@ -2,6 +2,7 @@ $apex-blue: #00274d;
 $apex-orange: #ff8d42;
 
 @import 'navbar';
+@import 'teams';
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -53,6 +54,14 @@ body {
 
 p {
   margin-bottom: 0;
+}
+
+.apex-orange {
+  color: $apex-orange;
+}
+
+.apex-blue {
+  color: $apex-blue;
 }
 
 #wrapper {

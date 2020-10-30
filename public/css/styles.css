@@ -77,6 +77,14 @@ p {
   margin-bottom: 0;
 }
 
+.apex-orange {
+  color: #ff8d42;
+}
+
+.apex-blue {
+  color: #00274d;
+}
+
 #wrapper {
   margin-top: 180px !important;
   margin-bottom: 3rem !important;
