@@ -42,6 +42,23 @@
   position: absolute !important;
 }
 
+#teams--wrapper {
+  margin-top: 180px !important;
+  margin-bottom: 3rem !important;
+  padding-top: 3rem !important;
+  border-radius: 5px;
+}
+
+#teams--wrapper h1 {
+  display: inline-block;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#teams--wrapper p {
+  padding: 0;
+}
+
 @media (max-width: 575.98px) {
   #wrapper.col-sm-8 {
     padding: .5rem;
@@ -85,13 +102,13 @@ p {
   color: #00274d;
 }
 
-#wrapper {
+#index--wrapper {
   margin-top: 180px !important;
   margin-bottom: 3rem !important;
   border-radius: 5px;
 }
 
-#wrapper p {
+#index--wrapper p {
   padding: 1rem !important;
 }
 /*# sourceMappingURL=styles.css.map */
