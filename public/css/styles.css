@@ -88,6 +88,10 @@
   font-family: Terminal;
 }
 
+#footer a:hover {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: Terminal;
   src: url(../css/fonts/PCapTerminal.otf);
