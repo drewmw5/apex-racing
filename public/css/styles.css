@@ -46,23 +46,6 @@
   position: absolute !important;
 }
 
-#teams--wrapper {
-  margin-top: 180px !important;
-  margin-bottom: 3rem !important;
-  padding-top: 3rem !important;
-  border-radius: 5px;
-}
-
-#teams--wrapper h1 {
-  display: inline-block;
-  width: 100%;
-  word-wrap: break-word;
-}
-
-#teams--wrapper p {
-  padding: 0;
-}
-
 #gallery-container {
   margin-top: 180px !important;
   margin-bottom: 3rem !important;
@@ -169,7 +152,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#index--wrapper {
+.wrapper {
   margin-top: 180px !important;
   margin-bottom: 3rem !important;
   border-radius: 5px;
