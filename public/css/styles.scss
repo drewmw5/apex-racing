@@ -3,6 +3,8 @@ $apex-orange: #ff8d42;
 
 $ais-blue: #0aa0e7;
 
+$discord-color: #7289da;
+
 @import 'navbar';
 @import 'footer';
 
@@ -86,6 +88,10 @@ p {
 
 .ais-blue {
   color: $ais-blue;
+}
+
+.discord-color {
+  color: $discord-color;
 }
 
 .font-terminal {
