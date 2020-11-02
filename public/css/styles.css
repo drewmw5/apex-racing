@@ -28,10 +28,8 @@
 }
 
 .navbar-brand--image {
-  width: 100%;
-  height: auto;
-  max-height: 130px;
-  max-width: 450px;
+  width: 150%;
+  max-width: 400px;
 }
 
 .navbar-toggler-icon {
@@ -61,12 +59,19 @@
 }
 
 @media (max-width: 575.98px) {
-  #wrapper.col-sm-8 {
-    padding: .5rem;
-    margin-top: 120px !important;
+  .wrapper {
+    margin-top: 130px;
   }
   .navbar-brand {
     max-width: 50%;
+  }
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    margin-top: 180px !important;
+    margin-bottom: 3rem !important;
+    border-radius: 5px;
   }
 }
 
@@ -129,12 +134,6 @@ p {
 
 .font-arial {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.wrapper {
-  margin-top: 180px !important;
-  margin-bottom: 3rem !important;
-  border-radius: 5px;
 }
 
 .modal-content {
