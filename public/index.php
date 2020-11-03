@@ -1,5 +1,5 @@
 <?php
-$title = " - Home";
+$title = " - About";
 
 require_once 'includes/html/head.php';
 require_once 'includes/html/navbar.html';
