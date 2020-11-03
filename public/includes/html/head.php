@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="<?php echo $desc; ?>">
+    <meta name="description" content=<?php echo $desc; ?>>
 
     <script defer src="js/jquery-3.5.1.min.js"></script>
     <script defer src="js/bootstrap.min.js"></script>
@@ -17,6 +17,6 @@
 
     <link rel="icon" href="images/Apex-A-symbol (1).jpg">
 
-    <title>Apex Tech Racing<? echo $title;?></title>
+    <title>Apex Tech Racing<?php echo $title;?></title>
 </head>
 <body>
