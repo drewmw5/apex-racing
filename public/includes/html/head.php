@@ -17,6 +17,6 @@
 
     <link rel="icon" href="images/Apex-A-symbol (1).jpg">
 
-    <title>Apex Tech Racing</title>
+    <title>Apex Tech Racing<?php echo $title;?></title>
 </head>
 <body>
