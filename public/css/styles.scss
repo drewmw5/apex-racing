@@ -77,6 +77,10 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .body--small {
   font-size: 50%;
 }
@@ -140,3 +144,5 @@ p {
   max-width: 100%;
   max-height: 75vh;
 }
+
+

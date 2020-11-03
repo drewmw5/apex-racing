@@ -100,6 +100,10 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .body--small {
   font-size: 50%;
 }
