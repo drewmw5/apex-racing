@@ -100,6 +100,10 @@ p {
   margin-bottom: 0;
 }
 
+small {
+  font-size: 50%;
+}
+
 .apex-orange {
   color: #ff8d42;
 }
@@ -114,6 +118,11 @@ p {
 
 .apex-blue--bg {
   background-color: #00274d;
+}
+
+.font-border--apex {
+  color: #ff8d42;
+  -webkit-text-stroke: 1px #00274d;
 }
 
 .ais-blue {
@@ -134,6 +143,11 @@ p {
 
 .font-arial {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog--date {
+  color: #ff8d42;
+  letter-spacing: .2rem;
 }
 
 .modal-content {
