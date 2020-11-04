@@ -1,6 +1,6 @@
 <?php
 $title = " - Teams";
-$desc = "Welcome to the Apex Tech Racing Teams Page! Here is where you can find information on both of our teams and their drivers. ";
+$desc = '"Welcome to the Apex Tech Racing Teams Page! Here is where you can find information on both of our teams and their drivers. "';
 
 
 require_once 'includes/html/head.php';

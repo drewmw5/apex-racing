@@ -1,6 +1,6 @@
 <?php
 $title = " - Gallery";
-$desc = "Welcome to the Apex Tech Racing Gallery Page! Here is where you can find all the images for the team.";
+$desc = '"Welcome to the Apex Tech Racing Gallery Page! Here is where you can find all the images for the team."';
 
 
 require_once 'includes/html/head.php';
