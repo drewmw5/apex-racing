@@ -17,6 +17,8 @@
 
     <link rel="icon" href="images/Apex-A-symbol (1).jpg">
 
+    <link rel="canonical" href=<?php echo $canonical; ?> />
+
     <title>Apex Tech Racing<?php echo $title;?></title>
 </head>
 <body>
