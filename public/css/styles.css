@@ -81,6 +81,12 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .max-width--50 {
+    max-width: 50%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

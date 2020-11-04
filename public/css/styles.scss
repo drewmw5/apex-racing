@@ -57,6 +57,11 @@ $discord-color: #7289da;
     padding: 3rem;
   }
 }
+@media (max-width: 1200px) {
+  .max-width--50 {
+    max-width: 50%;
+  }
+}
 
 * {
     margin: 0;
