@@ -13,7 +13,7 @@
     <script defer src="js/all.min.js"></script> <!--load all styles -->
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.min.css">
 
     <link rel="icon" href="images/Apex-A-symbol (1).jpg">
 
