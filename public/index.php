@@ -1,6 +1,6 @@
 <?php
 $title = " - Home";
-$desc = "Welcome to the Apex Tech Racing Home Page! The most convenient place to find news and updates for the team.";
+$desc = '"Welcome to the Apex Tech Racing Home Page! The most convenient place to find news and updates for the team."';
 
 require_once 'includes/html/head.php';
 require_once 'includes/html/navbar.html';
