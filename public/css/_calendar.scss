@@ -1,0 +1,50 @@
+.fc-daygrid-day-number {
+  color: $apex-blue;
+  &:hover {
+    color: $apex-orange;
+  }
+}
+
+.fc-col-header-cell-cushion {
+  color: $apex-blue;
+
+  &:hover {
+    color: $apex-orange
+  }
+}
+
+.fc-daygrid-event {
+  color: $apex-blue;
+  &:hover {
+    color: $apex-blue;
+  }
+}
+
+.fc-daygrid-event-dot {
+  border-color: $apex-blue;
+}
+
+.fc-daygrid-more-link {
+  &:hover {
+    color: $apex-blue;
+  }
+  color: $apex-blue;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary {
+  background-color: $apex-blue;
+}
+
+.fc-h-event {
+  border-color: $apex-blue;
+}
+
+.fc-event-title-container {
+  background-color: $apex-blue;
+}
+
+#calendar {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+}
