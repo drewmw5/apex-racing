@@ -1,5 +1,6 @@
 $(document).ready(function() {
     viewFullImage();
+    getCalendar();
 })
 
 function viewFullImage(){
@@ -12,4 +13,14 @@ function viewFullImage(){
         $('#modal-img').attr('src', image)
         $('#modal').modal('show')
     })
+}
+
+function getCalendar() {
+    $.ajax({
+        type: "POST",
+        url: "includes/php/SQL/calendar.php",
+        success: function (r) {
+            console.log(r);
+        }
+    });
 }
