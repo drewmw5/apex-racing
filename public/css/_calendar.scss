@@ -1,3 +1,7 @@
+.fc-day-today {
+  background-color: lighten($apex-orange, $amount: 25%) !important;
+}
+
 .fc-daygrid-day-number {
   color: $apex-blue;
   &:hover {
