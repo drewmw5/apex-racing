@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       center: "title",
       right: "dayGridMonth,timeGridWeek,timeGridDay",
     },
-    initialDate: "2020-09-12",
+    // initialDate: "2020-09-12",
     navLinks: true, // can click day/week names to navigate views
     selectable: true,
     selectMirror: true,
