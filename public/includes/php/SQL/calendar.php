@@ -3,13 +3,9 @@ require_once '../../../../dbconn.php';
 
 $return = [];
 
-$return['status'] = 'error';
-
 if($stmt = $con->prepare('SELECT * FROM calendar')) {
     $stmt->execute();
     $stmt->bind_result($id, $group_type, $title, $url, $start, $end, $all_day);
-
-    $return['status'] = 'execute';
 
     while($stmt->fetch()) {
          array_push($return, 
@@ -30,7 +26,5 @@ if($stmt = $con->prepare('SELECT * FROM calendar')) {
 
 
 }
-
-$return['status'] = "success";
 
 echo json_encode($return);
