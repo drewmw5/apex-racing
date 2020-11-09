@@ -1,6 +1,5 @@
 $(document).ready(function () {
   viewFullImage();
-  // getCalendar();
 });
 
 function viewFullImage() {
