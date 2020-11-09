@@ -31,8 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
     googleCalendarApiKey: 'AIzaSyAQ43nWBGvG6ZoI88KchAfMBFwK0odQqyE',
 
     // US Holidays
-    events: 'en.usa#holiday@group.v.calendar.google.com',
-
+    events: {
+    googleCalendarId: 'c_un0ld6k7nuvv85n5q3qevpl3ds@group.calendar.google.com'
+  },
     eventClick: function(arg) {
 
       // opens events in a popup window
