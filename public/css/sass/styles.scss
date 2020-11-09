@@ -76,9 +76,8 @@ html, body {
 }
 
 body {
-    //background-color: $apex-blue;
-    background-image: url('../images/gallery/4.png');
-    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(to bottom, $apex-blue, darken($apex-blue, 10%));
 }
 
 p {
@@ -87,6 +86,10 @@ p {
 
 a {
   text-decoration: none !important;
+}
+
+.container {
+  opacity: 90%;
 }
 
 .body--small {
