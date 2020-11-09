@@ -9,16 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
       },
   
       displayEventTime: false, // don't show the time column in list view
-  
-      // THIS KEY WON'T WORK IN PRODUCTION!!!
-      // To make your own Google API key, follow the directions here:
-      // http://fullcalendar.io/docs/google_calendar/
       googleCalendarApiKey: 'AIzaSyAQ43nWBGvG6ZoI88KchAfMBFwK0odQqyE',
   
-      // US Holidays
       events: {
-      googleCalendarId: 
-      'c_un0ld6k7nuvv85n5q3qevpl3ds@group.calendar.google.com'
+      googleCalendarId: 'c_un0ld6k7nuvv85n5q3qevpl3ds@group.calendar.google.com'
     },
       eventClick: function(arg) {
   
