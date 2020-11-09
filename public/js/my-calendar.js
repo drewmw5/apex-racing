@@ -11,11 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
     displayEventTime: false, // don't show the time column in list view
     googleCalendarApiKey: "AIzaSyAQ43nWBGvG6ZoI88KchAfMBFwK0odQqyE",
 
-    events: 
+    events: [
       {
         googleCalendarId:
           "c_un0ld6k7nuvv85n5q3qevpl3ds@group.calendar.google.com",
       },
+      {
+        googleCalendarId: "en.usa#holiday@group.v.calendar.google.com",
+      }
+    ],
     eventClick: function (arg) {
       // opens events in a popup window
       window.open(arg.event.url, "_blank", "width=700,height=600");

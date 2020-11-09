@@ -11,9 +11,6 @@
     <script defer src="js/calendar.min.js"></script>
     <script defer src="js/my-calendar.min.js"></script>
     <script defer src="js/index.min.js"></script>
-    <script>
-
-</script>
 
     <!-- Font Awesome JS -->
     <script defer src="js/all.min.js"></script>
