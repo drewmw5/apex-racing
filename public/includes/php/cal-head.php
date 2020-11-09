@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,21 @@
     <script defer src="js/jquery-3.5.1.min.js"></script>
     <script defer src="js/bootstrap.min.js"></script>
     <script defer src="js/calendar.min.js"></script>
+    <script defer src="js/my-calendar.min.js"></script>
     <script defer src="js/index.min.js"></script>
+<!-- 
+
+    <link href='fullcalendar/main.css' rel='stylesheet' />
+    <script src='fullcalendar/main.js'></script>
+    <script>
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            // no plugin config required!
+        });
+    </script> -->
 
     <!-- Font Awesome JS -->
-    <script defer src="js/all.min.js"></script> <!--load all styles -->
+    <script defer src="js/all.min.js"></script>
+    <!--load all styles -->
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/calendar.min.css">
@@ -21,7 +33,8 @@
 
     <link rel="canonical" href=<?php echo $canonical; ?> />
 
-    <title>Apex Tech Racing<?php echo $title;?></title>
+    <title>Apex Tech Racing<?php echo $title; ?></title>
 
 </head>
+
 <body>
