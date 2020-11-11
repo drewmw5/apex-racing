@@ -2,13 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
   var calendarEl = document.getElementById("calendar");
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
+    // height: auto,
     headerToolbar: {
       left: "prev,next today",
       center: "title",
       right: "dayGridMonth,listYear",
     },
 
-    displayEventTime: false, // don't show the time column in list view
+    displayEventTime: true, // don't show the time column in list view
     googleCalendarApiKey: "AIzaSyD0Nn0eL5qbawX6K6m4lY5tAaZkB6D5rkw",
 
     events: 
