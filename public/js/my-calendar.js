@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     displayEventTime: false, // don't show the time column in list view
-    googleCalendarApiKey: "AIzaSyAQ43nWBGvG6ZoI88KchAfMBFwK0odQqyE",
+    googleCalendarApiKey: "AIzaSyD0Nn0eL5qbawX6K6m4lY5tAaZkB6D5rkw",
 
     events: 
       {
