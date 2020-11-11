@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
     contentHeight: "auto",
+    initialView: 'dayGridMonth',
+    eventDisplay: 'block',
+
     headerToolbar: {
       left: "prev,next today",
       center: "title",
