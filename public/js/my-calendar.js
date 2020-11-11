@@ -15,11 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
     displayEventTime: true, // don't show the time column in list view
     googleCalendarApiKey: "AIzaSyD0Nn0eL5qbawX6K6m4lY5tAaZkB6D5rkw",
 
-    events: 
+    eventSources: [ 
       {
-        googleCalendarId:
-          "c_un0ld6k7nuvv85n5q3qevpl3ds@group.calendar.google.com",
+        googleCalendarId: "c_un0ld6k7nuvv85n5q3qevpl3ds@group.calendar.google.com",      
       },
+      {
+        googleCalendarId: "en.usa#holiday@group.v.calendar.google.com",      
+      },
+    ],
     eventClick: function (arg) {
       // opens events in a popup window
       window.open(arg.event.url, "_blank", "width=700,height=600");
