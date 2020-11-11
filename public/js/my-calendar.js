@@ -19,9 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         googleCalendarId: "c_un0ld6k7nuvv85n5q3qevpl3ds@group.calendar.google.com",      
       },
-      {
-        googleCalendarId: "en.usa#holiday@group.v.calendar.google.com",      
-      },
     ],
     eventClick: function (arg) {
       // opens events in a popup window
