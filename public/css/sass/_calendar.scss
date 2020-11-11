@@ -43,6 +43,10 @@
   border-color: $apex-blue;
 }
 
+.fc-h-event .fc-event-time {
+  overflow: visible !important;
+}
+
 .fc-event-title-container {
   background-color: $apex-blue;
 }
