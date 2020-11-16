@@ -9,7 +9,7 @@
     <script defer src="js/jquery-3.5.1.min.js"></script>
     <script defer src="js/bootstrap.min.js"></script>
     <script defer src="js/calendar.min.js"></script>
-    <script defer src="js/my-calendar.min.js"></script>
+    <script defer src="js/my-calendar.js"></script>
     <script defer src="js/index.min.js"></script>
 
     <!-- Font Awesome JS -->
