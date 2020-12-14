@@ -1,3 +1,3 @@
 <?php
 
-header("Location: https://league.apextechracing.com/");
+header("Location: http://league.apextechracing.com/");
